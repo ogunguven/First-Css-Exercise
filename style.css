@@ -1,0 +1,130 @@
+
+  .sidebar {
+    position:fixed;
+    width: 20%;
+    height:100%    ;
+    font-size: 16px;
+    background: #9e7676;
+    min-height: 100vh;
+  }
+
+  p {
+    color: black;
+  }
+  h2 {
+    text-shadow:0 0 12px #FFF8EA, 0 0 20px #9e7676;
+    color:  #594545;;
+    font-size: 20px;
+    text-align: left;
+    font-weight: bold;
+    font-family: monospace;
+  }
+
+  .yan-yazi {
+    margin: auto;
+  }
+  .sola-kaydir {
+    float: left;
+    padding: 0 10px 0;
+  }
+
+  .nav {
+    position: relative;
+    margin: 50 10%;
+    text-align: left;
+    top: 50%;
+    transform: translateY(-50%);
+    font-weight: bold;
+  }
+  .nav ul {
+    list-style: none;
+    font-family: monospace;
+    transition: 1.5s;
+  }
+  .nav ul a{
+    transition: 0.8s;
+    color: #FFF8EA;
+    font-family:monospace;
+  }
+  .nav ul .active a{
+    color: white;
+    font-family:cursive;
+  }
+  .nav ul a:hover{
+    color: rgb(89, 69, 69);
+  }
+  a {
+    line-height: 5em;
+    text-decoration: none;
+    letter-spacing: 0.4em;
+    color: white
+  }
+  .active a {
+    color: white;
+  }
+  section {
+   color: white;
+   margin-left: 26%;
+   font-family: monospace;
+   font-size: larger;
+   
+} 
+section p{
+  transition: 1.5s;
+}
+section p:hover{
+  color: #594545;
+}
+section .baslik {
+  text-shadow: 0 0 12px #FFF8EA, 0 0 20px #9e7676;
+    color: #594545;
+    font-size: 60px;
+    padding-top: 50%;
+    font-weight: bold;
+    font-family:'Press Start 2P', cursive;
+    margin-left: 22% 
+}
+section span:hover{
+  color: aliceblue;
+  transition: 0.7s;
+}
+
+.clear{ clear: both;}
+
+.sidebar div img{
+  height: 0px;
+  margin-left:0%;
+  
+}
+
+.alt ul{
+  font-size: medium;
+  margin-left: 30%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  font-weight: bold;
+  font-family: monospace;
+}
+.alt li{
+  color: #ffffff;
+  display: inline;
+  margin: 30px;
+  position: relative;
+}
+.alt ul a {
+  color:black;
+  font-family: monospace;
+  transition: 0.8s;
+}
+.alt ul a:hover{
+  color: #594545;
+}
+
+section h1{
+  text-shadow: 0 0 12px #FFF8EA, 0 0 20px #9e7676;
+  color: #594545;
+  font-size: 35px;
+  text-align: left;
+  font-weight: bold;
+  font-family: monospace;
+}
